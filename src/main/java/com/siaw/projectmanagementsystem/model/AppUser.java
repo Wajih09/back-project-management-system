@@ -23,7 +23,6 @@ public class AppUser {
     @Column(unique = true)
     private String email;
 
-    //it won't send password to client 5h51min
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
     private int projectSize;
