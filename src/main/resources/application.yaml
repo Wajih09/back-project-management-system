@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: project-management-system
+  datasource:
+    url: jdbc:postgresql://localhost:5432/yt_projectmanagement
+    username: postgres
+    password: wxcvbn
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: wajih.siai91@gmail.com
+    password: iina ucfq mwjf bapr
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+
+#logging:
+#  level:
+#    org.springframework.security: DEBUG
+#    com.siaw.projectmanagementsystem: DEBUG
+
+logging:
+  level:
+    root: INFO
+    org.springframework.security: DEBUG
+    com.siaw.projectmanagementsystem: DEBUG
+    # Enable more verbose logging
+    org.springframework.web: TRACE
+    org.hibernate: TRACE
+    org.springframework: TRACE
+
+stripe:
+  api:
+    key: pk_test_51PVfRPFBCYiLKunVllmFzD6B15d7g3BYoogq1xnOZTgloo5q374bNRcxOZuLH7CioWGQq2Lqiakwo5ZONIPzyBSJ00NaGhFanT
+    secret: sk_test_51PVfRPFBCYiLKunVvCcY71bflZEFTGT2W6LwDfff9qlfuPiyqkOoVG0kNBb0XWLv38TNnKbQqwOLoCXKuznYtZRo00lFNNz2PS
