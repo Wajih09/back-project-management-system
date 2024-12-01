@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UserController implements UserApi {
-
+//comm2
     @Autowired
     private AppUserService appUserService;
 
