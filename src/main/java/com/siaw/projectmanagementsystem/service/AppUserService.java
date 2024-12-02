@@ -5,7 +5,7 @@ import com.siaw.projectmanagementsystem.model.AppUser;
 import java.util.Optional;
 
 public interface AppUserService {
-
+///new comm
     AppUser findUserByJwt(String jwt) throws Exception;
 
     AppUser findUserByEmail(String email) throws Exception;
