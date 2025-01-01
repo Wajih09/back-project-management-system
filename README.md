@@ -3,6 +3,8 @@ The platform allows users to manage projects and issues (create, update, delete,
 The platform includes a real-time chatbox for seamless team communication. 
 It also offers three subscription plans—Free, Monthly, and Yearly—each unlocking different features.
 
+**Technos : Java 11 / React / Redux / Tailwind CSS / Stripe API / PosgreSQL**
+
 
 ![image_original](https://github.com/user-attachments/assets/4620d67f-93ba-49cd-9673-7a7ef308da80)
 
